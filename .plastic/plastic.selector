@@ -1,0 +1,4 @@
+repository "casual sliding game/casual sliding game@13469714336891@cloud"
+  path "/"
+    br "/main"
+    co "/main"

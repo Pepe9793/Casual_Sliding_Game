@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: e1010d6ffb8c9ff4c9c4b6cd024b3778
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4593577985797729671
+    second: computer-game-landscapes-collection_0
+  - first:
+      213: -3583534301075209395
+    second: computer-game-landscapes-collection_1
+  - first:
+      213: 2204574776863275531
+    second: computer-game-landscapes-collection_2
+  - first:
+      213: -3542493025258441174
+    second: computer-game-landscapes-collection_3
+  - first:
+      213: -4683054433264662689
+    second: computer-game-landscapes-collection_4
+  - first:
+      213: -8463738305646699139
+    second: computer-game-landscapes-collection_5
+  - first:
+      213: -4970742004863307156
+    second: computer-game-landscapes-collection_6
+  - first:
+      213: -4553552665910193137
+    second: computer-game-landscapes-collection_7
+  - first:
+      213: 6057235311243981031
+    second: computer-game-landscapes-collection_8
+  - first:
+      213: 3783791205646161177
+    second: computer-game-landscapes-collection_9
+  - first:
+      213: -673969431144928022
+    second: computer-game-landscapes-collection_10
+  - first:
+      213: -925323261518941561
+    second: computer-game-landscapes-collection_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2742
+        width: 1814
+        height: 221
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb30299b681e78a4fa40cbee89b3986a
+      internalID: 741304346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2504
+        width: 1814
+        height: 220
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db36097683f47ce4794ac46e26c134e5
+      internalID: 2027174416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2259
+        width: 1814
+        height: 221
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c44c93e6b0902b458604593db4be692
+      internalID: -1761499387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2015
+        width: 1814
+        height: 207
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be04cc88d6e50034f900101af7af52a8
+      internalID: -451687106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1770
+        width: 1814
+        height: 207
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a74b233a6d7b4f8cbe74abc528dac
+      internalID: -1002334736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1527
+        width: 1814
+        height: 227
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d254661169ae4e9450eab8137aa2d
+      internalID: 881158738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1282
+        width: 1814
+        height: 211
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1bafe8f05bec34b8c3bede054f3fba
+      internalID: -1598828276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1040
+        width: 1814
+        height: 205
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46e6f570eb97ba4c86d5eecb73c836b
+      internalID: -1002639400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 795
+        width: 1814
+        height: 189
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a21c6d1f33d85848a332f6c540c0f9a
+      internalID: -1112918846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 551
+        width: 1814
+        height: 199
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb667101c7c5aea459500989e2e9a5ea
+      internalID: -526964273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 306
+        width: 1815
+        height: 207
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46d8c39502792b4f8e14f8f1778215a
+      internalID: 246715416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer-game-landscapes-collection_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 62
+        width: 1814
+        height: 220
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606e25929069bc45a8fc0db0f6ae2d6
+      internalID: 1558401110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3859359e1773b624a838bbf5b154da85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      computer-game-landscapes-collection_0: 741304346
+      computer-game-landscapes-collection_1: 2027174416
+      computer-game-landscapes-collection_10: 246715416
+      computer-game-landscapes-collection_11: 1558401110
+      computer-game-landscapes-collection_2: -1761499387
+      computer-game-landscapes-collection_3: -451687106
+      computer-game-landscapes-collection_4: -1002334736
+      computer-game-landscapes-collection_5: 881158738
+      computer-game-landscapes-collection_6: -1598828276
+      computer-game-landscapes-collection_7: -1002639400
+      computer-game-landscapes-collection_8: -1112918846
+      computer-game-landscapes-collection_9: -526964273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
