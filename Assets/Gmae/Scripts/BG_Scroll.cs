@@ -3,7 +3,7 @@ using UnityEngine;
 public class BG_Scroll : MonoBehaviour
 {
     public float _scrollspeed = 0.3f;
-    
+
     private MeshRenderer _meshrenderer;
 
     private void Awake()
@@ -21,6 +21,7 @@ public class BG_Scroll : MonoBehaviour
         Vector2 offset = _meshrenderer.sharedMaterial.GetTextureOffset("_MainTex");
         offset.y += _scrollspeed * Time.deltaTime;
 
-        _meshrenderer.sharedMaterial.SetTextureOffset("_MainTex", offset);
+        // In Scroll()
+        _meshrenderer.material.SetTextureOffset("_MainTex", offset);
     }
 }

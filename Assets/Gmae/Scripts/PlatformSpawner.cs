@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlatformSpawner : MonoBehaviour
 {
@@ -11,12 +12,14 @@ public class PlatformSpawner : MonoBehaviour
     private float _currentPlatformSpawnTimer;
 
     private int _platformSpawnCount;
+    private bool _lastWasSpike; // Track if the last platform was a spike
 
-    public float _minX = -2f, _maxX = 2f;
+    public float _minX = -2.5f, _maxX = 2.5f;
 
     private void Start()
     {
         _currentPlatformSpawnTimer = _platformSpawnTimer;
+        _lastWasSpike = false;
     }
 
     private void Update()
@@ -40,10 +43,22 @@ public class PlatformSpawner : MonoBehaviour
             if (_platformSpawnCount < 2)
             {
                 newPlatform = Instantiate(_platform, temp, Quaternion.identity);
+                _lastWasSpike = false; // First two platforms are always normal
             }
             else
             {
-                int rand = Random.Range(0, 4); // 0: normal, 1: spike, 2: breakable, 3: moving
+                int rand;
+
+                // Prevent consecutive spikes
+                if (_lastWasSpike)
+                {
+                    List<int> allowedTypes = new List<int> { 0, 2, 3 }; // 0: normal, 2: breakable, 3: moving
+                    rand = allowedTypes[Random.Range(0, allowedTypes.Count)];
+                }
+                else
+                {
+                    rand = Random.Range(0, 4); // All types allowed
+                }
 
                 switch (rand)
                 {
@@ -59,6 +74,13 @@ public class PlatformSpawner : MonoBehaviour
                     case 3:
                         newPlatform = Instantiate(_movingPlatform, temp, Quaternion.identity);
                         break;
+                }
+
+                // Update spike tracking
+                if (newPlatform != null)
+                {
+                    Platform platformScript = newPlatform.GetComponent<Platform>();
+                    _lastWasSpike = (platformScript != null && platformScript._isspikes);
                 }
             }
 

@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
+    [Header("SFX")]
+    [SerializeField] private AudioClip _landSFX;
+    private AudioSource _audioSource;
+
     public float _movespeed = 2f;
     public float _boundY = 6f;
 
@@ -11,6 +15,8 @@ public class Platform : MonoBehaviour
 
     private void Awake()
     {
+        _audioSource = GetComponent<AudioSource>();
+
         if (_isbreakable)
         {
             _anim = GetComponent<Animator>();
@@ -20,6 +26,12 @@ public class Platform : MonoBehaviour
     private void Update()
     {
         Move();
+    }
+
+    public void PlayLandSFX()
+    {
+        if (_audioSource && _landSFX)
+            _audioSource.PlayOneShot(_landSFX);
     }
 
     void Move()
